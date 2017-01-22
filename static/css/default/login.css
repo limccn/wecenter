@@ -1,12 +1,18 @@
 /* 登陆页面 */
 body{background:url('img/login_bg.jpg') no-repeat #e9f0f4;}
 #wrapper{position: relative;margin-bottom:20px;padding-top:100px;}
-.btn-weibo{background-color: #ff6666;color: #fff !important;}
-.btn-weibo:hover{background-color: #ff4d4d;}
-.btn-weibo:active{background-color: #E64545;}
-.btn-qq{background-color: #418ae2;color: #fff !important;}
-.btn-qq:hover{background-color: #2d7fe2;}
-.btn-qq:active{background-color: #1773e2;}
+/*.btn-weibo{background-color: #ff6666;color: #fff !important;}*/
+.btn-weibo{background:url('img/login_weibo.png') no-repeat;background-size:contain;}
+.btn-weibo:hover{background:url('img/login_weibo.png') no-repeat;background-size:contain;}
+.btn-weibo:active{background:url('img/login_weibo.png') no-repeat;background-size:contain;}
+/*.btn-weibo:hover{background-color: #ff4d4d;}*/
+/*.btn-weibo:active{background-color: #E64545;}*/
+/*.btn-qq{background-color: #418ae2;color: #fff !important;}*/
+.btn-qq{background:url('img/login_qq.png') no-repeat;background-size:contain;}
+.btn-qq:hover{background:url('img/login_qq.png') no-repeat;background-size:contain;}
+.btn-qq:active{background:url('img/login_qq.png') no-repeat;background-size:contain;}
+/*.btn-qq:hover{background-color: #2d7fe2;}*/
+/*.btn-qq:active{background-color: #1773e2;}*/
 .btn-google{background-color: #e25d4a;color: #fff !important;}
 .btn-google:hover{background-color: #e34a33;}
 .btn-google:active{background-color: #ca422d;}

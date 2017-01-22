@@ -36,11 +36,11 @@
 
 					<h3><?php _e('第三方账号登录'); ?></h3>
 					<?php if (get_setting('sina_weibo_enabled') == 'Y') { ?>
-						<a href="account/openid/weibo/bind/<?php echo $return_url; ?>" class="btn btn-block btn-weibo"><i class="icon icon-weibo"></i> 微博登录</a>
+						<a href="account/openid/weibo/bind/<?php echo $return_url; ?>" class="btn btn-block btn-weibo">&nbsp;</a>
 					<?php } ?>
 
 					<?php if (get_setting('qq_login_enabled') == 'Y') { ?>
-						<a href="account/openid/qq/bind/<?php echo $return_url; ?>" class="btn btn-block btn-qq"><i class="icon icon-qq"></i> QQ 登录</a>
+						<a href="account/openid/qq/bind/<?php echo $return_url; ?>" class="btn btn-block btn-qq">&nbsp;</a>
 					<?php } ?>
 
 					<?php if (get_setting('weixin_app_id') && get_setting('weixin_app_secret') && get_setting('weixin_account_role') == 'service') { ?>
