@@ -19,6 +19,9 @@ body{background:url('img/login_bg.jpg') no-repeat #e9f0f4;}
 .btn-facebook{background-color: #3a5799;color: #fff !important;}
 .btn-facebook:hover{background-color: #264a9b;}
 .btn-facebook:active{background-color: #244081;}
+.btn-github{background-color: #3a5799;color: #fff !important;}
+.btn-github:hover{background-color: #264a9b;}
+.btn-github:active{background-color: #244081;}
 .btn-twitter{background-color: #1eb5ee;color: #fff !important;}
 .btn-twitter:hover{background-color: #00ace6;}
 .btn-twitter:active{background-color: #009dd2;}

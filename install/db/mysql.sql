@@ -989,6 +989,22 @@ CREATE TABLE `[#DB_PREFIX#]users_facebook` (
   KEY `access_token` (`access_token`)
 ) ENGINE=[#DB_ENGINE#] DEFAULT CHARSET=utf8;
 
+CREATE TABLE `[#DB_PREFIX#]users_github` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `uid` int(11) UNSIGNED NOT NULL,
+  `name` varchar(128) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `home_url` varchar(255) DEFAULT NULL,
+  `location` varchar(16) DEFAULT NULL,
+  `avatar_url` varchar(255) DEFAULT NULL,
+  `access_token` varchar(255) DEFAULT NULL,
+  `expires_time` int(10) UNSIGNED NOT NULL DEFAULT '0',
+  `add_time` int(10) UNSIGNED NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uid` (`uid`),
+  KEY `access_token` (`access_token`)
+) ENGINE=[#DB_ENGINE#] DEFAULT CHARSET=utf8;
+
 CREATE TABLE `[#DB_PREFIX#]users_twitter` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `uid` int(11) UNSIGNED NOT NULL,
